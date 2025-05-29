@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 40px 20px;
+}
+
+main {
+    background-color: #818080;
+    padding: 40px 20px;
+}
+
+footer {
+    background-color: #333;
+    padding: 40px 20px;
+}
+
+.container-main {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    
+
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+}
